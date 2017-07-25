@@ -39,6 +39,9 @@ parser.set_defaults(filter_url_tts=False)
 commandArgs = parser.parse_args()
 print commandArgs
 
+# Import turret code
+from nerfBlasterTurret import Turret
+turret = Turret()
 
 
 # watch dog timer
@@ -681,7 +684,17 @@ def handle_command(args):
 
         #if 'command' in args:
         #    print "args command:", args['command']
-
+	
+	if args['command'] == "R"
+		turret.rotateRight()
+	if args['command'] == "L"
+		turret.rotateLeft()
+	if args['command'] == "U"
+		turret.rotateUp()
+	if args['command'] == "D"
+		turret.rotateDown()
+	if args['command'] == "S"
+		turret.shoot()
 
             
         if 'command' in args and 'robot_id' in args and args['robot_id'] == robotID:
