@@ -6,6 +6,9 @@ RunMyRobot is a site for interacts with other using telepresence robots. User cr
 https://runmyrobot.com
 
 
+Make your own here: https://letsrobot.readme.io/docs/awesome-nerf-turret
+
+
 <h2> Installing robot control and video scripts </h2>
 
 
